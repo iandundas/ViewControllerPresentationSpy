@@ -4,8 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ViewControllerPresentationSpy",
     platforms: [
-        .iOS(.v12),
-        .tvOS(.v12),
+        .iOS(.v11)
     ],
     products: [
         .library(
